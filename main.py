@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 from spark.rooms import Room
 from spark.session import Session
+import os
 
 token = os.environ['SPARK_BOT_TOKEN']
 url = 'https://api.ciscospark.com'
